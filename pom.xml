@@ -42,6 +42,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- H2 Database (Enables zero-config live deployment on Render) -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- Spring Boot DevTools (Optional, helps during development) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
